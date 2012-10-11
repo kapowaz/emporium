@@ -1,0 +1,197 @@
+:cards:
+  :name: Cards
+  :href: /shop/cards
+  :products:
+    - :href: /filters/cards?theme=
+      :title: View all cards
+    - :href: /filters/cards?theme=thankyou
+      :title: Thank you
+    - :href: /filters/cards?theme=general
+      :title: General
+    - :href: /filters/cards?theme=birthday
+      :title: Birthday
+    - :href: /filters/cards?theme=baby
+      :title: Baby
+    - :href: /filters/cards?theme=wedding
+      :title: Wedding
+    - :href: /filters/cards?theme=partyinvitation
+      :title: Party Invitation
+    - :href: /filters/cards?theme=love
+      :title: Valentine's
+    - :href: /filters/cards?theme=formum
+      :title: For Mum
+    - :href: /filters/cards?theme=fordad
+      :title: For Dad
+    - :href: /filters/cards?theme=christmas
+      :title: Christmas
+:homegifts:
+  :name: Home Gifts
+  :href: /shop/home-gifts
+  :products:
+    - :href: /shop/home-gifts/photo-mug
+      :title: Photo Mug
+    - :href: /shop/home-gifts/royal-wedding-mug
+      :title: Royal Wedding Mug
+      :new: true
+    - :href: /shop/home-gifts/photo-mousemat
+      :title: Mousemat
+    - :href: /shop/home-gifts/photo-coasters
+      :title: Coasters
+    - :href: /shop/home-gifts/photo-placemats
+      :title: Placemats
+    - :href: /shop/home-gifts/photo-cushion
+      :title: Cushions
+    - :href: /shop/fun-stuff/photo-teddy
+      :title: Photo Teddy
+    - :href: /shop/fun-stuff/etched-glass
+      :title: Etched Glass
+    - :href: /shop/fun-stuff/photo-fridge-magnet
+      :title: Fridge Magnet
+    - :href: /shop/fun-stuff/photo-jigsaw
+      :title: Jigsaw
+    - :href: /shop/fun-stuff/photo-keyrings
+      :title: Photo Keyrings
+    - :href: /shop/fun-stuff/photo-stickers
+      :title: Photo Stickers
+    - :href: /shop/royal-wedding-commemorative-gifts
+      :title: Royal Wedding Souvenirs
+:stationery:
+  :name: Stationery
+  :href: /shop/stationery
+  :products:
+    - :href: /shop/cards-and-stationery/postcard
+      :title: Postcard
+    - :href: /shop/cards-and-stationery/business-cards
+      :title: Business Cards
+    - :href: /shop/cards-and-stationery/photo-notebook
+      :title: Photo Notebooks
+    - :href: /shop/cards-and-stationery/wallet-cards
+      :title: Wallet Cards
+:clothing:
+  :name: Clothing and Accessories
+  :href: /shop/clothing-and-accessories
+  :products:
+    - :href: /shop/clothing-and-accessories/photo-bags
+      :title: Bags
+    - :href: /shop/clothing-and-accessories/photo-t-shirts
+      :title: T-Shirts
+    - :href: /shop/clothing-and-accessories/photo-fashion
+      :title: Photo Fashion
+:photobooks:
+  :name: Photo Books
+  :href: /shop/photo-books
+  :products:
+    - :href: /shop/photo-books/large-personalised-cover-photobook
+      :title: A3 Personalised Cover Book
+    - :href: /shop/photo-books/large-square-hardcover-photobook
+      :title: Large Square Hardcover Book
+    - :href: /shop/photo-books/personalised-cover-photobook
+      :title: A4 Personalised Cover Book
+    - :href: /shop/photo-books/classic-cover-photobook
+      :title: A4 Classic Photobook
+    - :href: /shop/photo-books/crystal-deluxe-photobook
+      :title: A4 Crystal Deluxe Photobook
+    - :href: /shop/photo-books/square-hardcover-photobook
+      :title: Square Hardcover Book
+    - :href: /shop/photo-books/square-stylebook
+      :title: Square Softcover Book
+    - :href: /shop/photo-books/square-spiral-softcover-photobook
+      :title: Square Spiral Softcover Book
+    - :href: /shop/photo-books/small-stylebook
+      :title: Small Softcover Book
+    - :href: /shop/photo-books/minibook
+      :title: Minibook
+    - :href: /shop/photo-books/cookbook
+      :title: Cookbook
+    - :href: /shop/photo-books/baby-book
+      :title: Baby First Year Book
+    - :href: /shop/photo-books/book-for-dad
+      :title: Book for Dad
+    - :href: /shop/photo-books/book-for-mum
+      :title: Book for Mum
+    - :href: /shop/photo-books/abc-book-of-love
+      :title: ABC Book of Love
+    - :href: /shop/photo-books/lovebook
+      :title: Lovebook
+:calendars:
+  :name: Calendars and Diaries
+  :href: /shop/calendars-and-diaries
+  :products:
+    - :href: /shop/calendars-and-diaries
+      :title: Calendars
+      :main: true
+    - :href: /shop/calendars-and-diaries/a3-poster-calendar
+      :title: A3 Poster Calendar
+    - :href: /shop/calendars-and-diaries/a3-double-page-calendar
+      :title: A3 Double Page Calendar
+    - :href: /shop/calendars-and-diaries/a3-and-a4-wall-calendars
+      :title: A3 Wall Calendar
+    - :href: /shop/calendars-and-diaries/a3-and-a4-wall-calendars
+      :title: A4 Wall Calendar
+    - :href: /shop/calendars-and-diaries/slim-calendar
+      :title: Slim Calendar
+      :new: true
+    - :href: /shop/calendars-and-diaries/family-planner-calendar
+      :title: Family Calendar
+    - :href: /shop/calendars-and-diaries/deluxe-desk-calendar
+      :title: Deluxe Desk Calendar
+    - :href: /shop/calendars-and-diaries/desk-calendar
+      :title: Desk Calendar
+    - :separator: true
+    - :href: /shop/calendars-and-diaries?tab=6
+      :title: Diaries
+      :main: true
+    - :href: /shop/calendars-and-diaries/deluxe-diary
+      :title: Deluxe Diary
+    - :href: /shop/calendars-and-diaries/photo-diaries
+      :title: Photo Diaries     
+:walldecor:
+  :name: Wall Décor
+  :href: /shop/wall-decor
+  :products:
+    - :href: /shop/wall-decor/canvas-prints
+      :title: Canvas Prints
+    - :href: /shop/wall-decor/poster-prints
+      :title: Poster Prints
+    - :href: /shop/wall-decor/professional-photo-paper-poster-prints
+      :title: Pro Poster Prints
+    - :href: /shop/wall-decor/collage-prints
+      :title: Collage Prints
+    - :href: /shop/prints/walbum
+      :title: Walbum
+    - :href: /shop/wall-decor/photo-art-enhancement
+      :title: Mix It Up Photo Art
+    - :href: /shop/prints/framed-prints
+      :title: Small Framed Prints
+    - :href: /shop/wall-decor/box-framed-prints
+      :title: Box Framed Prints
+    - :href: /shop/wall-decor/gallery-framed-prints
+      :title: Gallery Framed Prints
+    - :href: /shop/wall-decor/ornate-framed-canvas-prints
+      :title: Ornate Framed Canvas
+    - :href: /shop/wall-decor/acrylic-prints
+      :title: Acrylic Prints
+    - :href: /shop/wall-decor/mounted-gallery-prints
+      :title: Mounted Gallery Prints
+    - :href: /shop/wall-decor/aluminium-mounted-prints
+      :title: Aluminium Mounted Prints
+:prints:
+  :name: Prints
+  :href: /shop/prints
+  :products:
+    - :href: /shop/prints/standard-prints
+      :title: Standard Prints
+    - :href: /shop/prints/enlargement-prints
+      :title: Enlargement Prints
+    - :href: /shop/prints/passport-id-photos
+      :title: Passport Photos
+    - :href: /shop/prints/print-packs
+      :title: Print Packs
+    - :href: /shop/prints/print-credits
+      :title: Print Credits
+    - :href: /shop/prints/framed-prints
+      :title: Framed Prints
+    - :href: /shop/accessories-and-storage/my-account-backup
+      :title: DVD Photo Backup
+    - :href: /shop/prints/walbum
+      :title: Walbum

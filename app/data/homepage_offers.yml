@@ -1,0 +1,21 @@
+- :name: 20percent_off
+  :title: 20% off prints
+  :body: When you spend £10
+  :discount: 20% off
+  :link_title: Buy Prints
+  :href: /shop/prints
+- :name: 35percent_off_photobooks
+  :title: 35% off photo books* private sale
+  :body: Buy credit now to spend later
+  :conditions: "*Selected books only"
+  :discount: 35% off
+  :link_title: Buy credit now
+  :href: /crm/landing/Book-Private-Sale/
+  :wide: true
+- :name: save_a_fiver
+  :title: Save a fiver
+  :body: Just spend £20 more*
+  :conditions: "*Exclusions apply"
+  :discount: £5 off
+  :link_title: Shop now
+  :href: /shop

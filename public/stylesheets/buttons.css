@@ -1,0 +1,201 @@
+input[type=submit],
+button,
+a.button
+{
+  display:inline-block;
+  border-radius:3px;
+  -o-border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border:none;
+  cursor:pointer;
+  background-color:rgb(180,180,180);
+  margin:0;
+  padding:4px 8px;
+  color:white;
+  text-shadow:0 -1px 0 black;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:11px;
+  line-height:16px;
+  border:1px solid rgb(100,100,100);
+  -webkit-box-shadow:inset 0 1px 1px rgba(255,255,255,0.3), inset 0 -1px 0 rgba(0,0,0,0.1), inset 1px 0 1px rgba(255,255,255,0.3), inset -1px 0 1px rgba(255,255,255,0.3);
+  -moz-box-shadow:inset 0 1px 1px rgba(255,255,255,0.3), inset 0 -1px 0 rgba(0,0,0,0.1), inset 1px 0 1px rgba(255,255,255,0.2), inset -1px 0 1px rgba(255,255,255,0.2);
+  -webkit-transition-property:box-shadow color;
+  -webkit-transition-duration:0.1s;
+  -moz-transition-property:box-shadow color;
+  -moz-transition-duration:0.1s;
+}
+
+body.webkit input[type=submit],
+body.webkit button,
+body.webkit a.button
+{
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, rgb(220,220,220)),
+    color-stop(1, rgb(140,140,140))
+  );
+}
+
+body.mozilla input[type=submit],
+body.mozilla button,
+body.mozilla a.button
+{
+  background-image: -moz-linear-gradient(top, rgb(159,55,39), rgb(106,14,0));
+  height:15px;
+}
+
+input[type=submit].green,
+button.green,
+a.button.green
+{
+  background-color:rgb(93,182,25);
+  border:1px solid rgb(5,116,39);
+}
+
+body.webkit input[type=submit].green,
+body.webkit button.green,
+body.webkit a.button.green
+{
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, rgb(164,217,5)),
+    color-stop(1, rgb(23,148,44))
+  );
+}
+
+body.mozilla input[type=submit].green,
+body.mozilla button.green,
+body.mozilla a.button.green { background-image: -moz-linear-gradient(top, rgb(164,217,5), rgb(23,148,44)); }
+
+
+input[type=submit].orange,
+button.orange,
+a.button.orange
+{
+  background-color:rgb(246,128,5);
+  border:1px solid rgb(159,96,61);
+}
+
+body.webkit input[type=submit].orange,
+body.webkit button.orange,
+body.webkit a.button.orange
+{
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, rgb(253,163,4)),
+    color-stop(1, rgb(239,94,5))
+  );
+}
+
+body.mozilla input[type=submit].orange,
+body.mozilla button.orange,
+body.mozilla a.button.orange { background-image: -moz-linear-gradient(top, rgb(253,163,4), rgb(239,94,5)); }
+
+body.mozilla input[type=submit]::-moz-focus-inner,
+body.mozilla button::-moz-focus-inner { border: 0; }
+
+input[type=submit]:hover,
+button:hover,
+a.button:hover 
+{ 
+  -webkit-box-shadow:inset 0 1px 1px rgba(255,255,255,0.6), inset 0 -1px 0 rgba(0,0,0,0.1), inset 1px 0 1px rgba(255,255,255,0.6), inset -1px 0 1px rgba(255,255,255,0.6);
+  -moz-box-shadow:inset 0 1px 1px rgba(255,255,255,0.6), inset 0 -1px 0 rgba(0,0,0,0.1), inset 1px 0 1px rgba(255,255,255,0.6), inset -1px 0 1px rgba(255,255,255,0.6);
+}
+
+input[type=submit]:active,
+button:active,
+a.button:active
+{
+  -webkit-box-shadow:inset 0 -1px 0 rgba(255,255,255,0.3), inset 0 1px 0 rgba(0,0,0,0.5);
+  -moz-box-shadow:inset 0 -1px 0 rgba(255,255,255,0.3), inset 0 1px 0 rgba(0,0,0,0.5);
+}
+
+input[type=submit]:focus,
+button:focus.
+a.button:focus
+{
+  outline:none;
+  -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -1px 0 rgba(0,0,0,0.5), 0 0 2px rgb(255,232,127), inset 0 0 2px rgb(255,232,127);
+  -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -1px 0 rgba(0,0,0,0.5), 0 0 2px rgb(255,232,127), inset 0 0 2px rgb(255,232,127);
+}
+
+input[type=submit].disabled,
+input[type=submit].disabled:active,
+button.disabled,
+button.disabled:active,
+a.button.disabled,
+a.button.disabled:active,
+{
+  color:rgba(0,0,0,0.4);
+  text-shadow:0 1px 0 rgba(255,255,255,0.2);
+  background-color:rgb(100,100,100);
+  cursor:default;
+  -webkit-transition-property:none;
+  -moz-transition-property:none;
+}
+body.webkit input[type=submit].disabled,
+body.webkit input[type=submit].disabled:active,
+body.webkit button.disabled,
+body.webkit button.disabled:active,
+body.webkit a.button.disabled,
+body.webkit a.button.disabled:active
+{
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, rgb(128,128,128)),
+    color-stop(1, rgb(64,64,64))
+  );
+}
+body.mozilla input[type=submit].disabled,
+body.mozilla input[type=submit].disabled:active,
+body.mozilla button.disabled,
+body.mozilla button.disabled:active,
+body.mozilla a.button.disabled,
+body.mozilla a.button.disabled:active { background-image: -moz-linear-gradient(top, rgb(128,128,128), rgb(64,64,64) ); }
+
+input[type=submit] span,
+button span,
+a.button span,
+{
+  display:block;
+  float:left;
+}
+
+body.mozilla input[type=submit] span,
+body.mozilla button span,
+body.mozilla a.button span { line-height:18px; }
+
+body.mozilla input[type=submit] span b,
+body.mozilla button span b,
+body.mozilla a.button span b { margin-top:1px; }
+
+input[type=submit] > b,
+button > b,
+a.button > b
+{
+  display:block;
+  float:right;
+  text-indent:-999px;
+  overflow:hidden;
+  background-repeat:no-repeat;
+}
+
+input[type=submit] span b,
+button span b,
+a.button span b
+{
+  display:block;
+  float:left;
+  width:10px;
+  margin-right:5px;
+}

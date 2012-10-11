@@ -1,0 +1,24 @@
+<% tag :ul, :class => "carousel navigation" do %>
+  <% @carousel[:slides].each do |slide| %>
+    <%= tag :li, :class => slide[:category], :content => link_to(slide[:href], slide[:title]) %>
+  <% end %>
+<% end %>
+
+<div class="carousel pagination">
+  <a href="#prev" class="prev">‹</a> <a href="#next" class="next">›</a>
+</div>
+
+<% tag :ul, :class => "carousel slides" do %>
+  <% @carousel[:slides].each do |slide| %>
+    <% tag :li, :id => slide[:id], :class => ['slide', slide[:category], slide[:theme]].reject {|a| a.nil?}.join(' ') do %>
+      <%= link_to slide[:href], slide[:link], :class => "overlay" %>
+      <%= tag :div, :class => "sash", :content => slide[:sash].gsub('\n', "<br>") if slide.key? :sash %>
+      <%= tag :div, :class => "conditions", :content => slide[:conditions] if slide.key? :conditions %>
+      <div class="content">
+        <h3><%= slide[:content_title] %></h3>
+        <p><%= slide[:content_body] %></p>
+        <p><%= link_to slide[:href], slide[:linktext] %><br class="clear"></p>
+      </div>
+    <% end %>
+  <% end %>
+<% end %>

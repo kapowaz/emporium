@@ -1,0 +1,48 @@
+<div class="shop categories">
+  <h3><a href="/shop">Photo gifts by range</a></h3>
+  <ul>
+    <li><a href="/shop/prints">Prints</a></li>
+    <li><a href="/shop/photo-books">Photo Books</a></li>
+    <li><a href="/shop/wall-decor">Wall Décor</a></li>
+    <li><a href="/shop/cards">Cards</a></li>
+    <li><a href="/shop/stationery">Stationery</a></li>
+    <li><a href="/shop/home-gifts">Home Gifts</a></li>
+    <li><a href="/shop/clothing-and-accessories">Clothing and Accessories</a></li>
+    <li><a href="/shop/calendars-and-diaries">Calendars and Diaries</a></li>
+    <li><a href="/shop/royal-wedding-commemorative-gifts">Royal Wedding Souvenirs</a></li>
+  </ul>
+
+  <h3><a href="/shop/personalised-gifts">Photo gifts by price</a></h3>
+  <ul>
+    <li><a href="/shop/personalised-gifts/gifts-under-10">Gifts under £10</a></li>
+    <li><a href="/shop/personalised-gifts/gifts-under-20">Gifts under £20</a></li>
+    <li><a href="/shop/personalised-gifts/gifts-under-30">Gifts under £30</a></li>
+  </ul>
+
+  <h3>Save Money</h3>
+  <ul>
+    <li><a href="/my/account/newsletters?osid=optinnavleft">Sign up for exclusive offers</a></li>
+    <li><a href="/my/refer/new?osid=pukbs126">Earn money or free prints</a></li>
+  </ul>
+</div>
+
+<div class="shop featured">
+  <h2>Discover our fantastic range of personalised photo gifts</h2>
+  
+  <%= shop_hero(
+    :content_id       => "create_the_instant_way",
+    :title            => "Create a Photo Book the <strong>instant</strong> way",
+    :button_href      => "/shop/photo-books/instantway",
+    :button_title     => "Create instantly",
+    :discount_value   => "30% off",
+    :discount_subject => "Hardcover Photobooks",
+    :offer_code       => "HCBOOK",
+    :offer_expiry     => "08/09/11",
+    :more_href        => "/content/latest-promotions"
+  ) %>
+  
+  <%= shop_product_categories %>
+  
+</div>
+
+<br class="clear">

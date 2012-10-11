@@ -1,0 +1,78 @@
+- :id: slide_20110812_35_off_books_hotnow
+  :category: books
+  :href: /shop/photo-books
+  :title: What's hot
+  :sash: 35% OFF\nselected Photo Books
+  :content_title: 35% off Photo Books* Private Sale
+  :content_body: Buy credit now to spend later
+  :conditions: Selected books only
+  :linktext: Shop Now
+- :id: slide_20110812_35_off_books
+  :category: books
+  :href: /shop/photo-books
+  :title: Photo Books
+  :sash: 35% OFF\nselected Photo Books
+  :content_title: Do something amazing with your photos
+  :content_body: "Our quality & affordable photo books are the perfect gift"
+  :linktext: Buy Photo Book
+- :id: slide_20110812_20_off_prints
+  :category: prints
+  :href: /shop/prints
+  :title: Prints
+  :sash: 20% OFF\nWhen you spend £10
+  :content_title: Your best memories from just 5p
+  :content_body: Relive the magic through great value photo prints
+  :linktext: Buy Prints
+- :id: slide_20110812_5_off_20_walldecor
+  :category: walldecor
+  :href: /shop/wall-decor
+  :title: Wall Décor
+  :sash: £5 OFF\nwhen you spend £20*
+  :content_title: A gorgeous gift that’ll take pride of place
+  :content_body: Just take your pick and we’ll do the rest!
+  :conditions: "*Excludes Premium Canvas"
+  :theme: :dark
+  :linktext: Buy Wall Decor
+- :id: slide_20110812_5_off_20_canvasprints
+  :category: walldecor
+  :href: /shop/wall-decor/canvas-prints
+  :title: Canvas Prints
+  :sash: £5 OFF\nwhen you spend £20*
+  :content_title: Work wonders with a favourite photo
+  :content_body: Your canvas in your hands in just 4-5 working days
+  :conditions: "*Excludes Premium Canvas"
+  :linktext: Buy Canvas Prints
+- :id: slide_20110812_5_off_20_posterprints
+  :category: walldecor
+  :href: /shop/wall-decor/poster-prints
+  :title: Posters
+  :sash: £5 OFF\nwhen you spend £20*
+  :content_title: Supersize a favourite photo
+  :content_body: Enjoy those memorable moments again and again
+  :conditions: "*Excludes Premium Canvas"
+  :linktext: Buy Poster Prints
+- :id: slide_20110812_5_off_20_homegifts
+  :category: gifts
+  :href: /shop/home-gifts
+  :title: Home Gifts
+  :sash: £5 OFF\nwhen you spend £20
+  :content_title: Make your house a home
+  :content_body: "Photo Mugs, Coasters, Placemats, Cushions & Mousemats"
+  :linktext: Buy Home Gifts
+- :id: slide_20110812_5_off_20_mugs
+  :category: gifts
+  :href: /shop/home-gifts/photo-mug
+  :title: Photo Mugs
+  :sash: £5 OFF\nwhen you spend £20
+  :content_title: Half price Photo Mugs
+  :content_body: Enjoy our sizzling summer special until midnight Thursday!
+  :linktext: Buy Photo Mugs
+- :id: slide_20110812_refer_friend
+  :category: offers
+  :href: /my/refer/new?osid=pukbs040
+  :title: Refer your friends
+  :content_title: Earn free stuff
+  :content_body: When you refer your friends to Emporium
+  :conditions: "We own your soul now"
+  :linktext: Find out more
+  :theme: :dark

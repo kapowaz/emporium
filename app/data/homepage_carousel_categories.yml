@@ -1,0 +1,23 @@
+---
+:prints:
+  :color: "#98bc1f"
+:books:
+  :color: "#646870"
+:walldecor:
+  :color: "#5db188"
+:cards:
+  :color: "#87a4aa"
+:stationery:
+  :color: "#beabb0"
+:gifts:
+  :color: "#a46674"
+:clothing:
+  :color: "#d8a8bb"
+:calendar:
+  :color: "#9c7cad"
+:offers:
+  :color: "#c2a5ae"
+:storage:
+  :color: "#a46674"
+:others:
+  :color: "#a3878f"

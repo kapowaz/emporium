@@ -1,0 +1,234 @@
+body div#wrapper
+{
+  width:960px;
+  margin:0 auto;
+  padding:10px 0 0 0;
+  
+  background-color:white;
+  -webkit-box-shadow:0 0 5px rgba(0,0,0,0.5);
+  
+  font-size:0.85em;
+  line-height:1.5em; 
+}
+
+body div#wrapper div#content
+{
+  padding:10px;
+  color:rgb(100,104,112);
+}
+
+body div#wrapper div#content h2
+{
+  color:rgb(209,31,93);
+  text-transform:uppercase;
+}
+
+body div#wrapper div#content div#side_column
+{
+  width:230px;
+  margin-right:0;
+  float:left;
+}
+body div#wrapper div#content div#side_column div.offer p.body { height:114px; }
+body div#wrapper div#content div#side_column div.block { margin-right:0; }
+body div#wrapper div#content div#side_column div.actions
+{
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, rgb(128,142,167)),
+    color-stop(1, rgb(89,106,136))
+  );
+  color:white;
+  text-shadow:0 -1px 0 rgba(0,0,0,0.5);
+  border-radius:5px;
+  padding:10px;
+  height:155px;
+  margin-bottom:10px;
+}
+body div#wrapper div#content div#side_column div.actions h3 
+{ 
+  margin:0; 
+  font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+body div#wrapper div#content div#side_column div.actions ul { padding-left:20px; }
+body div#wrapper div#content div#side_column div.actions ul li a 
+{ 
+  color:white;
+}
+body div#wrapper div#content div#side_column div.actions ul li a:hover { border-bottom:1px solid white; }
+
+body div#wrapper div#content div#side_column div.cta
+{
+  height:175px;
+  margin-bottom:10px;
+}
+body div#wrapper div#content div#side_column div.cta h3 
+{ 
+  margin:0;
+}
+body div#wrapper div#content div#side_column div.cta.signup
+{
+  border-radius:5px;
+  overflow:hidden;
+}
+body div#wrapper div#content div#side_column div.cta.signup h3 
+{
+  background-color:rgb(209,31,93);
+  color:white;
+  font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size:24px;
+  line-height:24px;
+  text-transform:uppercase;
+  height:50px;
+  padding:10px 40px;
+  background-image:url(/images/white_dot.png);
+  background-position:bottom;
+  background-repeat:repeat-x;
+  -webkit-box-shadow:inset 0 10px 20px rgba(255,255,255,0.5), 
+    inset 0 1px 0 rgb(209,31,93), 
+    inset 0 2px 0 rgba(255,255,255,0.5);
+}
+body div#wrapper div#content div#side_column div.cta.signup h3 strong
+{
+  display:block;
+  float:left;
+  font-size:50px;
+  line-height:44px;
+  margin-right:5px;
+}
+body div#wrapper div#content div#side_column div.cta.signup div.content
+{
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, rgb(219,218,223)),
+    color-stop(1, rgb(195,201,201))
+  );
+  padding:10px;
+  height:83px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  border:1px solid rgba(0,0,0,0.2);
+  border-top:none;
+  -webkit-box-shadow:inset 0 -1px 0 rgba(255,255,255,0.4);
+}
+body div#wrapper div#content div#side_column div.cta.signup div.content p 
+{ 
+  margin:0;
+  text-align:center;
+  text-shadow:0 1px 0 rgba(255,255,255,0.7);
+}
+body div#wrapper div#content div#side_column div.cta.signup div.content p.join
+{
+  color:rgb(209,31,93);
+  font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size:28px;
+  margin:5px 0 10px;
+}
+body div#wrapper div#content div#side_column div.cta.signup div.content p.caption
+{
+  font-size:11px;
+  margin-bottom:10px;
+}
+body div#wrapper div#content div#side_column div.cta.signup div.content a.button { float:right; }
+
+body div#wrapper div#content div.block
+{
+  display:inline-block;
+  width:230px;
+  height:200px;
+  margin-right:10px;
+  vertical-align:top;
+}
+body div#wrapper div#content div.block.wide { width:460px; }
+body div#wrapper div#content div.block:last-child { margin-right:0; }
+
+body div#wrapper div#content div.offers { height:200px; margin-bottom:20px; }
+body div#wrapper div#content div.offer 
+{ 
+  float:left;
+  background-repeat:no-repeat;
+  background-position:0 -3px;
+}
+body div#wrapper div#content div.offer h2
+{
+  font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight:normal;
+  border-bottom:1px solid rgb(204,204,204);
+  padding-bottom:5px;
+  background-color:white;
+}
+body div#wrapper div#content div.offer p.body
+{
+  font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight:bold;
+  font-size:14px;
+  color:rgb(100,104,112);
+  text-transform:none;
+  height:140px;
+  padding:5px 0 0 5px;
+  margin:0;
+  background-image:url(/images/offer_gradient.png);
+  background-repeat:repeat-x;
+  background-position:top left;
+}
+body div#wrapper div#content div.offer p.body span.conditions
+{
+  font-family:Lucida Grande, Calibri, Verdana, sans-serif;
+  font-size:10px;
+  font-weight:normal;
+  color:rgb(64,65,66);
+  text-shadow:0 1px 0 rgba(255,255,255,0.6);
+  display:block;
+  margin-top:115px;
+}
+body div#wrapper div#content div.offer p.body strong.discount
+{
+  display:block;
+  position:absolute;
+  height:44px;
+  width:44px;
+  padding:14px 10px;
+  margin:5px 0 0 155px;
+  text-align:center;
+  line-height:18px;
+  font-size:16px;
+  text-transform:uppercase;
+  text-shadow:0 -1px 0 rgba(0,0,0,0.6);
+  color:white;
+  background-image:url(/images/offer_discount_label.png);
+  background-repeat:no-repeat;
+}
+body div#wrapper div#content div.offer.wide p.body strong.discount
+{
+  margin-left:385px;
+}
+body div#wrapper div#content div.offer p.textlink
+{
+  text-align:right;
+  padding:2px 5px;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, rgb(209,208,213)),
+    color-stop(1, rgb(185,191,191))
+  );
+  border-top:1px solid rgba(255,255,255,0.5);
+  -webkit-border-bottom-left-radius:3px;
+  -webkit-border-bottom-right-radius:3px;
+}
+body div#wrapper div#content div.offer p.textlink a
+{
+  font-size:11px;
+  font-weight:normal;
+  color:rgb(100,104,112);
+  text-shadow:0 1px 0 rgba(255,255,255,0.8);
+}
+body div#wrapper div#content div.offer p.textlink a:hover
+{
+  color:rgb(26,145,43);
+}

@@ -1,0 +1,104 @@
+body div#wrapper div#header h1#logo
+{
+  margin:0 10px 10px 10px;
+  float:left;
+}
+
+body div#wrapper div#header h1#logo a
+{
+  display:block;
+  font-family:'Arial Rounded MT Bold', sans-serif;
+  font-weight:normal;
+  font-size:2em;
+  line-height:1.5em;
+  letter-spacing:-0.08em;
+  text-shadow:0 -1px 0 rgba(0,0,0,0.6);
+}
+body div#wrapper div#header h1#logo a:hover { border:none; }
+
+body div#wrapper div#header ul#essentials
+{
+  list-style:none;
+  padding:5px;
+  margin:0;
+  width:950px;
+  top:0;
+  position:absolute;
+  text-align:right;
+}
+body div#wrapper div#header ul#essentials li
+{
+  display:inline-block;
+  padding:0 5px;
+}
+body div#wrapper div#header ul#essentials li a
+{
+  font-size:0.9em;
+  font-weight:bold;
+  color:rgb(100,104,112);
+  text-decoration:none;
+}
+body div#wrapper div#header ul#essentials li a:hover
+{
+  color:rgb(26,145,43);
+  border-bottom:1px solid rgba(26,145,43,0.5);
+}
+
+body div#wrapper div#header div.user_controls
+{
+  padding-top:30px;
+}
+
+body div#wrapper div#header div.user_controls form#search
+{
+  float:right;
+  margin-right:20px;
+}
+body div#wrapper div#header div.user_controls form#search input[type=text]
+{
+  border:1px solid rgba(0,0,0,0.5);
+  border-radius:3px;
+  line-height:16px;
+  padding:4px;
+  width:200px;
+  -webkit-transition-property:-webkit-box-shadow;
+  -webkit-transition-duration:0.1s;
+}
+body div#wrapper div#header div.user_controls form#search input[type=text]:hover
+{
+  border-color:rgba(0,0,0,0.7);
+}
+body div#wrapper div#header div.user_controls form#search input[type=text]:focus
+{
+  outline:none;
+  border-color:rgb(142,178,21);
+  -webkit-box-shadow:0 0 1px rgb(142,178,21), 0 0 5px rgb(142,178,21);
+}
+
+body div#wrapper div#header div.user_controls div#basket
+{
+  float:right;
+  width:150px;
+  height:17px;
+  line-height:20px;
+  text-align:right;
+  padding:5px 5px 5px 20px;
+  -webkit-border-top-left-radius:5px;
+  -webkit-border-bottom-left-radius:5px;
+  border:1px solid rgba(0,0,0,0.1);
+  border-right:none;
+  -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5), 0 1px 1px rgba(0,0,0,0.2);
+  background-color:rgb(128,122,124);
+  background-image:url(/images/icon_shopping_basket.png);
+  background-repeat:no-repeat;
+  background-position:10px center;
+  color:white;
+  text-shadow:0 -1px 0 black;
+}
+body div#wrapper div#header div.user_controls div#basket a
+{
+  color:white;
+  font-weight:bold;
+  text-decoration:none;
+}
+body div#wrapper div#header div.user_controls div#basket a:hover { border-bottom:1px solid rgba(255,255,255,0.8); }

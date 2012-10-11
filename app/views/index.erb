@@ -1,0 +1,18 @@
+<div id="main_carousel">
+  <%= carousel :home %>
+</div>
+
+<div id="side_column" class="block">
+  <%= partial :sign_up_block unless logged_in? %>
+  <%= partial :user_cta_actions if logged_in? %>
+  
+  <%= offer_block @side_block %>
+</div>
+
+<br class="clear">
+
+<div class="offers">
+  <% @offers.each do |offer| %>
+    <%= offer_block offer %>
+  <% end %>  
+</div>

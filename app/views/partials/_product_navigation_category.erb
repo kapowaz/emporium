@@ -1,0 +1,12 @@
+<% tag :div, :class => "category #{locals[:category]}" do %>
+  <h3><%= link_to locals[:href], locals[:name], :rel => "nofollow" %></h3>
+  <ul>
+    <% locals[:products].each do |product| %>    
+      <% if product.key? :separator %>
+      <li class="separator">—</li>
+      <% else %>
+      <li><%= link_to product[:href], product[:title], {:title => product[:title]}.merge(filter_nil! :class => product[:main] == true ? 'main' : nil) %><%= tag :strong, :content => "New" if product[:new] %></li>
+      <% end %>
+    <% end %>
+  </ul>
+<% end %>

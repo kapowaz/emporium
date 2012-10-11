@@ -1,0 +1,146 @@
+body.shop div#wrapper div#content div.shop.categories
+{
+  width:230px;
+  margin-right:10px;
+  float:left;
+}
+body.shop div#wrapper div#content div.shop.categories h3
+{
+  margin:0;
+  font-size:1em;
+  color:rgb(100,104,112);
+  background-color:rgba(0,0,0,0.1);
+  padding:5px;
+}
+body.shop div#wrapper div#content div.shop.categories h3 a { color:rgb(100,104,112); }
+body.shop div#wrapper div#content div.shop.categories ul
+{
+  list-style:none;
+  padding:0;
+  margin:0 0 20px 0;
+}
+body.shop div#wrapper div#content div.shop.categories ul li 
+{ 
+  border-bottom:1px solid rgba(0,0,0,0.1);
+  padding:5px;
+}
+body.shop div#wrapper div#content div.shop.categories ul li:last-child { border-bottom:none; }
+body.shop div#wrapper div#content div.shop.categories ul li a { color:rgb(100,104,112); }
+body.shop div#wrapper div#content div.shop.categories ul li a:hover { color:rgb(26,145,43); }
+
+body.shop div#wrapper div#content div.shop.featured
+{
+  float:left;
+  width:700px;
+  min-height:500px;
+}
+body.shop div#wrapper div#content div.shop.featured h2
+{
+  font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight:bold;
+  font-size:2em;
+  line-height:1.5em;
+  text-transform:none;
+  color:rgb(100,104,112);
+  margin:5px 0 5px 0;
+}
+body.shop div#wrapper div#content div.shop.featured div.hero
+{
+  height:180px;
+  background-color:rgb(80,90,110);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0, rgba(255,255,255,0.3)),
+    color-stop(1, transparent)
+  );
+  border-radius:5px;
+}
+body.shop div#wrapper div#content div.shop.featured div.hero div.title
+{
+  float:left;
+  padding:10px;
+  color:white;
+/*  
+  display:-webkit-box;
+  -webkit-box-orient: right;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+*/
+}
+body.shop div#wrapper div#content div.shop.featured div.hero div.title h3
+{
+  margin:0 0 10px 0;
+}
+body.shop div#wrapper div#content div.shop.featured div.hero div.details
+{
+  float:right;
+  height:160px;
+  width:206px;
+  padding:10px;
+  background-color:rgb(209,31,93);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, rgba(255,255,255,0.3)),
+    color-stop(1, transparent)
+  );
+  color:white;
+  text-shadow:0 1px 0 rgba(0,0,0,0.5);
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+}
+body.shop div#wrapper div#content div.shop.featured div.hero div.details h4 
+{ 
+  font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size:1.3em;
+  margin:15px 0 35px 0;
+  text-align:center;
+}
+body.shop div#wrapper div#content div.shop.featured div.hero div.details h4 strong
+{
+  display:block;
+  text-transform:uppercase;
+  font-size:1.6em;
+  line-height:1.2em;
+}
+body.shop div#wrapper div#content div.shop.featured div.hero div.details p 
+{ 
+  font-size:1.2em;
+  font-weight:bold;
+  text-align:center;
+}
+body.shop div#wrapper div#content div.shop.featured div.hero div.details a
+{
+  font-size:0.9em;
+  color:white;
+  float:right;
+}
+body.shop div#wrapper div#content div.shop.featured div.hero div.details a:hover { border-bottom:1px solid white; }
+body.shop div#wrapper div#content div.shop.featured div.hero div.details a:before { content:"> "; }
+
+body.shop div#wrapper div#content div.shop.featured ul.products
+{
+  list-style:none;
+  margin:10px 0;
+  padding:0;
+}
+body.shop div#wrapper div#content div.shop.featured ul.products li.product
+{
+  display:block;
+  float:left;
+  width:204px;
+  height:130px;
+  border:1px solid rgba(0,0,0,0.3);
+  border-radius:3px;
+  margin:0 10px 10px 0;
+  padding:10px;
+}
+body.shop div#wrapper div#content div.shop.featured ul.products li.product:nth-child(3),
+body.shop div#wrapper div#content div.shop.featured ul.products li.product:nth-child(6),
+body.shop div#wrapper div#content div.shop.featured ul.products li.product:nth-child(9),
+body.shop div#wrapper div#content div.shop.featured ul.products li.product:nth-child(12) { margin-right:0; width:205px; }
+
+body.shop div#wrapper div#content div.shop.featured ul.products li.product h3 { margin:0; }

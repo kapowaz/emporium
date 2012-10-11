@@ -1,0 +1,11 @@
+<% tag :div, :class => "offer block cta#{ locals.key?(:wide) ? ' wide' : nil}", :id => "offer_#{locals[:name]}" do %>
+  <% link_to locals[:href], locals[:link_title] do %>
+    <h2><%= locals[:title] %></h2>
+    <p class="body">
+      <%= tag :strong, :class => "discount", :content => locals[:discount] if locals.key? :discount %>
+      <%= locals[:body] %>
+      <%= tag :span, :class => "conditions", :content => locals[:conditions] if locals.key? :conditions %>
+    </p>
+    <p class="textlink"><%= link_to locals[:href], locals[:link_title] %></p>
+  <% end %>
+<% end %>

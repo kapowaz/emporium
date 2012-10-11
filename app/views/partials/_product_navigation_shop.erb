@@ -1,0 +1,16 @@
+<div class="navigation products" data-menu-name="shop">
+  <div class="products">
+    <%= partial :product_navigation_category, :locals => locals[:cards].merge(:category => :cards) %>
+    <%= partial :product_navigation_category, :locals => locals[:homegifts].merge(:category => :homegifts) %>
+    <%= partial :product_navigation_category, :locals => locals[:stationery].merge(:category => :stationery) %>
+    <%= partial :product_navigation_category, :locals => locals[:clothing].merge(:category => :clothing) %>
+    <br class="clear">
+  </div>
+  <div class="products">
+    <%= partial :product_navigation_category, :locals => locals[:photobooks].merge(:category => :photobooks) %>
+    <%= partial :product_navigation_category, :locals => locals[:calendars].merge(:category => :calendars) %>
+    <%= partial :product_navigation_category, :locals => locals[:walldecor].merge(:category => :walldecor) %>
+    <%= partial :product_navigation_category, :locals => locals[:prints].merge(:category => :prints) %>
+    <br class="clear">
+  </div>
+</div>

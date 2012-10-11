@@ -1,0 +1,15 @@
+<% tag :div, :class => "hero", :id => locals[:content_id] do %>
+  <div class="title">
+    <h3 class="replaced"><%= locals[:title] %></h3>
+    <%= link_to locals[:button_href], locals[:button_title], :class => "green button" %>
+  </div>
+  <div class="details">
+    <h4><strong><%= locals[:discount_value] %></strong> <%= locals[:discount_subject] %></h4>
+    <p>
+      Offer code: <%= locals[:offer_code] %><br>
+      Offer ends: <%= locals[:offer_expiry] %>
+    </p>
+    <%= link_to locals[:more_href], "Find out more" %>
+  </div>
+  <br class="clear">
+<% end %>

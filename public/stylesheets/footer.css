@@ -1,0 +1,117 @@
+
+body div#wrapper div#footer {}
+body div#wrapper div#footer a 
+{ 
+  color:rgb(100,104,112);
+  text-decoration:none;
+}
+body div#wrapper div#footer a:hover
+{
+  color:rgb(26,145,43);
+  border-bottom:1px solid rgba(26,145,43,0.5);
+}
+
+body div#wrapper div#footer ul.sitemap
+{
+  list-style:none;
+  margin:0;
+  padding:4px;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, rgb(230,230,230)),
+    color-stop(1, rgb(255,255,255))
+  );
+  -webkit-box-shadow:inset 0 2px 1px rgba(0,0,0,0.1);
+  height:30px;
+}
+body div#wrapper div#footer ul.sitemap li
+{
+  display:block;
+  float:left;
+  -webkit-box-shadow:inset 1px 0 0 rgba(0,0,0,0.2);
+  margin-right:4px;
+  padding-left:4px;
+}
+body div#wrapper div#footer ul.sitemap li:first-child { -webkit-box-shadow:none; }
+body div#wrapper div#footer ul.sitemap li a { font-size:0.9em; }
+body div#wrapper div#footer ul.sitemap li a:hover { border:none; }
+
+body div#wrapper div#footer p
+{ 
+  font-size:0.9em;
+  margin:0 10px;
+}
+
+body div#wrapper div#footer ul.social
+{
+  list-style:none;
+  margin:10px;
+  padding:0;
+  height:100px;
+}
+body div#wrapper div#footer ul.social li
+{
+  width:205px;
+  height:80px;
+  line-height:80px;
+  text-align:center;
+  margin-right:10px;
+  padding:10px;
+  display:block;
+  float:left;
+  color:rgba(0,0,0,0.4);
+  text-shadow:0 1px 0 rgba(255,255,255,0.4);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, rgba(0,0,0,0.25)),
+    color-stop(1, rgba(0,0,0,0.1))
+  );
+  border:1px solid rgba(0,0,0,0.2);
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5), 0 1px 1px rgba(0,0,0,0.2);
+}
+body div#wrapper div#footer ul.social li:last-child
+{
+  margin-right:0;
+}
+
+body div#wrapper div#footer p.copyright 
+{ 
+  padding-bottom:10px;
+  border-bottom:1px solid rgba(0,0,0,0.2);
+}
+
+body div#wrapper div#footer div.products 
+{ 
+  clear:both;
+  margin-top:20px;
+}
+body div#wrapper div#footer div.products div.category
+{
+  width:227px;
+  margin-right:10px;
+  margin-bottom:20px;
+  float:left;
+}
+body div#wrapper div#footer div.products div.category:first-child { margin-left:10px; }
+body div#wrapper div#footer div.products div.category h4
+{
+  font-size:0.9em;
+  margin:0 0 10px 0;
+}
+
+body div#wrapper div#footer div.products div.category ul
+{
+  list-style:none;
+  padding:0;
+  margin:0;
+  font-size:0.9em;
+}
+body div#wrapper div#footer div.products div.category ul li { font-size:0.9em; }
+body div#wrapper div#footer div.products div.category ul li strong { color:rgb(209,31,93); }
