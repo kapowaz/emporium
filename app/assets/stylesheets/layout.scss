@@ -3,12 +3,12 @@ body div#wrapper
   width:960px;
   margin:0 auto;
   padding:10px 0 0 0;
-  
+
   background-color:white;
   -webkit-box-shadow:0 0 5px rgba(0,0,0,0.5);
-  
+
   font-size:0.85em;
-  line-height:1.5em; 
+  line-height:1.5em;
 }
 
 body div#wrapper div#content
@@ -47,14 +47,14 @@ body div#wrapper div#content div#side_column div.actions
   height:155px;
   margin-bottom:10px;
 }
-body div#wrapper div#content div#side_column div.actions h3 
-{ 
-  margin:0; 
+body div#wrapper div#content div#side_column div.actions h3
+{
+  margin:0;
   font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 body div#wrapper div#content div#side_column div.actions ul { padding-left:20px; }
-body div#wrapper div#content div#side_column div.actions ul li a 
-{ 
+body div#wrapper div#content div#side_column div.actions ul li a
+{
   color:white;
 }
 body div#wrapper div#content div#side_column div.actions ul li a:hover { border-bottom:1px solid white; }
@@ -64,8 +64,8 @@ body div#wrapper div#content div#side_column div.cta
   height:175px;
   margin-bottom:10px;
 }
-body div#wrapper div#content div#side_column div.cta h3 
-{ 
+body div#wrapper div#content div#side_column div.cta h3
+{
   margin:0;
 }
 body div#wrapper div#content div#side_column div.cta.signup
@@ -73,7 +73,7 @@ body div#wrapper div#content div#side_column div.cta.signup
   border-radius:5px;
   overflow:hidden;
 }
-body div#wrapper div#content div#side_column div.cta.signup h3 
+body div#wrapper div#content div#side_column div.cta.signup h3
 {
   background-color:rgb(209,31,93);
   color:white;
@@ -83,11 +83,11 @@ body div#wrapper div#content div#side_column div.cta.signup h3
   text-transform:uppercase;
   height:50px;
   padding:10px 40px;
-  background-image:url(/images/white_dot.png);
+  background-image: image-url('white_dot.png');
   background-position:bottom;
   background-repeat:repeat-x;
-  -webkit-box-shadow:inset 0 10px 20px rgba(255,255,255,0.5), 
-    inset 0 1px 0 rgb(209,31,93), 
+  -webkit-box-shadow:inset 0 10px 20px rgba(255,255,255,0.5),
+    inset 0 1px 0 rgb(209,31,93),
     inset 0 2px 0 rgba(255,255,255,0.5);
 }
 body div#wrapper div#content div#side_column div.cta.signup h3 strong
@@ -115,8 +115,8 @@ body div#wrapper div#content div#side_column div.cta.signup div.content
   border-top:none;
   -webkit-box-shadow:inset 0 -1px 0 rgba(255,255,255,0.4);
 }
-body div#wrapper div#content div#side_column div.cta.signup div.content p 
-{ 
+body div#wrapper div#content div#side_column div.cta.signup div.content p
+{
   margin:0;
   text-align:center;
   text-shadow:0 1px 0 rgba(255,255,255,0.7);
@@ -147,8 +147,8 @@ body div#wrapper div#content div.block.wide { width:460px; }
 body div#wrapper div#content div.block:last-child { margin-right:0; }
 
 body div#wrapper div#content div.offers { height:200px; margin-bottom:20px; }
-body div#wrapper div#content div.offer 
-{ 
+body div#wrapper div#content div.offer
+{
   float:left;
   background-repeat:no-repeat;
   background-position:0 -3px;
@@ -171,7 +171,7 @@ body div#wrapper div#content div.offer p.body
   height:140px;
   padding:5px 0 0 5px;
   margin:0;
-  background-image:url(/images/offer_gradient.png);
+  background-image: image-url('offer_gradient.png');
   background-repeat:repeat-x;
   background-position:top left;
 }
@@ -199,7 +199,7 @@ body div#wrapper div#content div.offer p.body strong.discount
   text-transform:uppercase;
   text-shadow:0 -1px 0 rgba(0,0,0,0.6);
   color:white;
-  background-image:url(/images/offer_discount_label.png);
+  background-image: image-url('offer_discount_label.png');
   background-repeat:no-repeat;
 }
 body div#wrapper div#content div.offer.wide p.body strong.discount

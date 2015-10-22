@@ -4,34 +4,30 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title><%= @page[:title] %></title>
-  <link rel="stylesheet" href="/stylesheets/default.css" type="text/css">
+  <%= tag :link, rel: 'shortcut icon', href: image_path('favicon.ico') %>
+  <%= style asset_path('application.css') %>
 </head>
 
-<% tag :body, filter_nil!(:class => @page[:class]) do %>
+<% tag :body, filter_nil!(class: @page[:class]) do %>
   <div id="wrapper">
-    
+
     <div id="header">
       <h1 id="logo"><a href="/">emporium</a></h1>
       <%= partial :user_controls %>
       <%= partial :navigation %>
     </div>
-    
+
     <div id="content">
       <%= yield %>
     </div>
-    
+
     <div id="footer">
       <%= partial :footer %>
       <%= partial :all_products %>
     </div>
   </div>
 
-  <script type="text/javascript" src="/javascripts/jquery-1.6.1.min.js"></script>
-  <script type="text/javascript" src="/javascripts/jquery_utilities.js"></script>
-  <script type="text/javascript" src="/javascripts/emporium_components.js"></script>
-  <script type="text/javascript" src="/javascripts/emporium_utilities.js"></script>
-  <script type="text/javascript" src="/javascripts/emporium_maincarousel.js"></script>
-  <script type="text/javascript" src="/javascripts/emporium_menus.js"></script>
-  <script type="text/javascript" src="/javascripts/application.js"></script>
+  <%= script asset_path('vendor.js') %>
+  <%= script asset_path('application.js') %>
 <% end %>
 </html>

@@ -3,16 +3,16 @@ html, body { height:100%; }
 body
 {
   background-color:rgb(226,225,225);
-  background-image:url(/images/body_background.png);
+  background-image: image-url('body_background.png');
   background-repeat:repeat-x;
   background-position:top-left;
-  
+
   margin:0;
   padding:0 0 20px 0;
 }
 
 a
-{ 
+{
   color:rgb(185,186,189);
   text-decoration:none;
 }
